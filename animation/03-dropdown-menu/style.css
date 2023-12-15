@@ -29,4 +29,9 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+/* solution */
 
+.dropdown-container{
+  transition: transform 250ms;
+  transform: t;
+}

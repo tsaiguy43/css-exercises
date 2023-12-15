@@ -1,0 +1,40 @@
+/* Basic syntax
+selector{
+    (property): (value);
+}
+*/
+
+/* Universal Selector */
+*{
+    color: purple;
+}
+
+.alert-text{
+    color: red;
+}
+
+#title{
+    background-color: red;
+}
+/* Allows us to apply shared declarations to different classes */
+.read, .unread{
+    color: white;
+    background-color: black;
+}
+
+.read{
+    /* several unique declarations */
+}
+
+.unread{
+    /* several unique declarations */
+}
+
+.subsection.header{
+    /* Only applies to things that have BOTH of these headers */
+    color: blue;
+}
+
+.subsection#preview{
+    color: grey;
+}

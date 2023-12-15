@@ -2,23 +2,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
+.para.small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
-}
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .para {
   font-size: 22px;
+  font-weight: bolder;
 }
 
-.confirm {
-  background: green;
+.button.confirm {
+  background-color: green;
   color: white;
   font-weight: bold;
 } 
@@ -35,8 +31,13 @@ body {
   font-size: 14px;
 }
 
-div.text {
+.text{
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+.text.child {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: 900;
 }
