@@ -24,3 +24,14 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.fruit-flex{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.header{
+  display:flex;
+  justify-content: center;
+}
